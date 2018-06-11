@@ -1,7 +1,7 @@
 {
   "name": "ufo-api",
   "description": "A UFO blockchain REST and web socket API service for UFOcore Node.",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "repository": "git://github.com/fiscalobject/ufo-api.git",
   "contributors": [
     {
