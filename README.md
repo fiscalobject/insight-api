@@ -1,26 +1,26 @@
 # Insight API
 
-A Bitcoin blockchain REST and web socket API service for [Bitcore Node](https://github.com/bitpay/bitcore-node).
+A UFO blockchain REST and web socket API service for [UFOcore Node](https://github.com/fiscalobject/ufocore-node).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/bitpay/insight-ui.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/fiscalobject/ufo-ui.
 
 ## Getting Started
 
 ```bashl
-npm install -g bitcore-node@latest
-bitcore-node create mynode
-cd mynode
-bitcore-node install insight-api
-bitcore-node start
+git clone https://github.com/fiscalobject/ufocore-node.git
+cd ufocore-node
+npm install
+./bin/ufocore-node install ufo-api
+./bin/ufocore-node start
 ```
 
 The API endpoints will be available by default at: `http://localhost:3001/insight-api/`
 
 ## Prerequisites
 
-- [Bitcore Node 3.x](https://github.com/bitpay/bitcore-node)
+- [UFOcore Node 3.x](https://github.com/fiscalobject/ufocore-node)
 
-**Note:** You can use an existing Bitcoin data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `bitcoin.conf`, as well as a few other additional fields.
+**Note:** You can use an existing UFO data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `bitcoin.conf`, as well as a few other additional fields.
 
 ## Notes on Upgrading from v0.3
 
